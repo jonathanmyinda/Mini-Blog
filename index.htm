@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>
@@ -12,13 +13,14 @@
     <section id="pubSection">
         <div id="pubEnter">
             <input type="text" name="title" id="pubTitle" placeholder="Entrez un titre">
-            <label for="publication">A quoi pensez-vous ?</label>
-            <textarea name="publication" id="pubZone"></textarea>
+            <label for="pubImage">ajouter une image</label>
+            <input type="file" required id="pubImage" accept="image/*">
             <button type="button" id="pubAdd">Publier</button>
         </div>
         <div id="pubLive">
     
         </div>
     </section>
+<script src="script.js"></script>
 </body>
 </html>
